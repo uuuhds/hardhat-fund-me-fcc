@@ -11,11 +11,3 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
-
-
-TODO:
-优化FundMe代码，减少gasFee
-
-优化测试代码
-
-新增测试脚本

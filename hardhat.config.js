@@ -51,10 +51,10 @@ module.exports = {
     apiKey: ETHER_SCAN_API_KEY,
   },
   gasReporter: {
-    enabled: false,
-    currency: 'USD',
+    enabled: true,
+    // currency: 'USD',
     outputFile: 'gas-report.txt',
     noColors: true,
-    coinmarketcap: COINMARKETCAP_API_KEY,
+    // coinmarketcap: COINMARKETCAP_API_KEY,
   },
 };
